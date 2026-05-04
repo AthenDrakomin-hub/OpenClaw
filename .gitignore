@@ -1,0 +1,17 @@
+# 运行时依赖和缓存
+plugin-runtime-deps/
+logs/
+*.log
+workspace/.git
+
+# 备份文件
+*.bak*
+*.backup*
+*.clobbered*
+*.last-good
+
+# pnpm / node 缓存
+node_modules/
+.openclaw-pnpm-store/
+.pnpm-store/
+openclaw.json
